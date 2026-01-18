@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered 3D Furniture Design Platform</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .headline {
+            font-size: 2.5em;
+            color: #4a90e2; /* Blue accent */
+            margin-bottom: 10px;
+        }
+        .subheadline {
+            font-size: 1.2em;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            color: #4a90e2;
+            margin-bottom: 40px;
+        }
+        .how-it-works {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .step {
+            flex: 1;
+            margin: 0 20px;
+        }
+        .benefits, .use-cases, .testimonials, .before-after, .pricing, .faq {
+            text-align: center;
+        }
+        .benefits ul {
+            list-style: none;
+            padding: 0;
+        }
+        .benefits li {
+            margin: 20px 0;
+            font-size: 1.1em;
+        }
+        .use-cases ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .use-cases li {
+            margin: 10px 20px;
+            font-size: 1.1em;
+        }
+        .testimonials {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .testimonial {
+            flex: 1;
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 300px;
+        }
+        .before-after {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .before, .after {
+            flex: 1;
+            margin: 0 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .plan {
+            flex: 1;
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 300px;
+        }
+        .plan h3 {
+            color: #4a90e2;
+        }
+        .cta-button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #357abd;
+        }
+        .faq {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item h4 {
+            color: #4a90e2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="headline">Revolutionize Furniture Design with AI-Powered 3D Tools</h1>
+        <p class="subheadline">Save time, cut costs, and deliver professional-grade designs effortlessly. Transform your ideas into stunning 3D furniture models in minutes.</p>
+        <a href="#pricing" class="cta-button">Start Free Trial</a>
+    </header>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="how-it-works">
+            <div class="step">
+                <h3>Step 1: Upload Your Ideas</h3>
+                <p>Input your design concepts, sketches, or requirements into our intuitive platform.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2: AI Generates 3D Models</h3>
+                <p>Our advanced AI analyzes your inputs and creates detailed, customizable 3D furniture models instantly.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3: Customize and Export</h3>
+                <p>Fine-tune designs, add materials, and export high-quality renders or files for production.</p>
+            </div>
+        </div>
+        <a href="#pricing" class="cta-button">Create Your First 3D Furniture Today</a>
+    </section>
+
+    <section id="benefits">
+        <h2>Key Benefits</h2>
+        <ul>
+            <li><strong>Save Time:</strong> Reduce design cycles from weeks to minutes with AI-driven automation.</li>
+            <li><strong>Cut Costs:</strong> Minimize prototyping expenses and material waste through precise digital modeling.</li>
+            <li><strong>Boost Professionalism:</strong> Deliver polished, industry-standard designs that impress clients and stakeholders.</li>
+        </ul>
+    </section>
+
+    <section id="use-cases">
+        <h2>Perfect for Professionals</h2>
+        <ul>
+            <li><strong>Architects:</strong> Integrate custom furniture into building plans seamlessly.</li>
+            <li><strong>Interior Designers:</strong> Visualize and present room layouts with realistic 3D furniture.</li>
+            <li><strong>Carpenters:</strong> Prototype and refine woodwork designs before cutting materials.</li>
+            <li><strong>Furniture Stores:</strong> Create virtual catalogs and personalized recommendations for customers.</li>
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"This platform has cut our design time in half. As an interior designer, I can now deliver stunning 3D visuals to clients faster than ever."</p>
+                <p>- Sarah Thompson, Interior Designer, New York</p>
+            </div>
+            <div class="testimonial">
+                <p>"The AI accuracy is incredible. We've reduced prototyping costs by 40% and improved our furniture quality."</p>
+                <p>- Mark Johnson, Carpenter, Toronto</p>
+            </div>
+            <div class="testimonial">
+                <p>"Essential for our architecture firm. It integrates perfectly with our workflow and saves us hours on custom furniture designs."</p>
+                <p>- Elena Rodriguez, Architect, London</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="before-after">
+        <h2>Before vs. After Using AI</h2>
+        <div class="before-after">
+            <div class="before">
+                <h3>Before</h3>
+                <p>Manual sketching and modeling take days, leading to costly revisions and inconsistent results. Prototyping involves trial and error with materials.</p>
+            </div>
+            <div class="after">
+                <h3>After</h3>
+                <p>AI generates precise 3D models in minutes, ensuring accuracy, reducing waste, and delivering professional outputs that meet client expectations.</p>
+            </div>
+        </div>
+        <a href="#pricing" class="cta-button">Start Free Trial</a>
+    </section>
+
+    <section id="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing">
+            <div class="plan">
+                <h3>Starter</h3>
+                <p>$29/month</p>
+                <ul>
+                    <li>Basic 3D modeling</li>
+                    <li>5 projects/month</li>
+                    <li>Email support</li>
+                </ul>
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+            <div class="plan">
+                <h3>Pro</h3>
+                <p>$79/month</p>
+                <ul>
+                    <li>Advanced AI features</li>
+                    <li>Unlimited projects</li>
+                    <li>Priority support</li>
+                    <li>Export to multiple formats</li>
+                </ul>
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+            <div class="plan">
+                <h3>Business</h3>
+                <p>$149/month</p>
+                <ul>
+                    <li>All Pro features</li>
+                    <li>Team collaboration</li>
+                    <li>Custom integrations</li>
+                    <li>Dedicated account manager</li>
+                </ul>
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h4>Is the platform easy to use for beginners?</h4>
+            <p>Yes, our intuitive interface is designed for professionals at all levels, with guided tutorials and AI assistance to get you started quickly.</p>
+        </div>
+        <div class="faq-item">
+            <h4>What file formats can I export?</h4>
+            <p>You can export designs in popular formats like OBJ, STL, and PDF, compatible with most design and manufacturing software.</p>
+        </div>
+        <div class="faq-item">
+            <h4>How secure is my data?</h4>
+            <p>We use enterprise-grade encryption and comply with GDPR and CCPA standards to ensure your designs and data are protected.</p>
+        </div>
+        <div class="faq-item">
+            <h4>Can I integrate this with other tools?</h4>
+            <p>Absolutely. Our API allows seamless integration with tools like AutoCAD, SketchUp, and project management software.</p>
+        </div>
+        <div class="faq-item">
+            <h4>Is there a free trial?</h4>
+            <p>Yes, start with a 14-day free trial on any plan to explore the platform and see results firsthand.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 AI-Powered 3D Furniture Design Platform. All rights reserved.</p>
+        <a href="#pricing" class="cta-button">Start Free Trial</a>
+    </footer>
+
+</body>
+</html>
